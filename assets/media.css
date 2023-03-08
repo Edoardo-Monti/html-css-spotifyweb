@@ -1,0 +1,50 @@
+
+/* SMARTPHONE SMALL*/
+@media  screen and (min-width: 500px) {
+    #container-sx{
+        width: 200px;
+    }
+
+    #container-dx{
+        width: calc(100% - 200px);
+    }
+
+    #container-sx .img-logo{
+        display: block;
+        margin-bottom: 1rem;
+    }
+
+    #container-sx .img-logo-small{
+        display: none;
+    }
+
+    #container-sx .img-logo-15{
+        width: 15%;
+    }
+
+    .display-inline-block span{
+        display: inline;
+        color: rgb(144, 144, 144);
+    }
+
+    .container-sx-playlist{
+        display: block;
+        color: rgb(144, 144, 144);
+        padding-top: 1rem;
+        line-height: 1.5rem;
+    }
+}
+
+
+
+/* TABLET */
+@media screen and (min-width: 600px) {
+    
+}
+
+
+
+/* MONITOR LARGE */
+@media screen and (min-width: 1080px) {
+    
+}

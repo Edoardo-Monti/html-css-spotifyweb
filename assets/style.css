@@ -7,3 +7,78 @@
 img{
     display: block;
 }
+
+li{
+    list-style-type: none;
+}
+
+#main-container{
+    width: 100%;
+    height:calc(100vh - 80px);
+}
+
+#container-sx{
+    width: 50px;
+    height: 100%;
+    padding: 0.75rem 0.75rem;
+    background-color: rgb(38, 38, 38);
+}
+
+#container-dx{
+    width: calc(100% - 50px);
+    height: 100%;
+    background-color: rgb(143, 167, 255);
+}
+
+#container-down{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(55, 54, 54);
+}
+
+.flex{
+    display: flex;
+}
+
+#container-sx .img-logo{
+    display: none;
+}
+
+.display-inline-block img{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.display-inline-block span{
+    display: none;
+}
+
+#container-sx .img-logo-small{
+    margin-bottom: 0.5rem;
+}
+
+#container-sx .display-inline-block{
+    margin-bottom: 0.5rem;
+}
+
+.container-sx-menu .display-inline-block:first-child{
+    border-left: 2px solid greenyellow;
+}
+
+.container-sx-playlist{
+    display: none;
+}
+
+.container-sx-playlist span{
+    color: white;
+    text-transform: uppercase;
+}
+
+.container-sx-playlist i{
+    color: black;
+    background-color: rgb(144, 144, 144);
+    font-size: 1.50rem;
+    padding: 0.5rem;
+    margin: 0.75rem;
+    margin-left: 0;
+}
