@@ -40,6 +40,15 @@ li{
     display: flex;
 }
 
+.space-between{
+    justify-content: space-between;
+}
+
+.column{
+    flex-direction: column;
+}
+
+/* CONTAINER-SX */
 #container-sx .img-logo{
     display: none;
 }
@@ -81,4 +90,26 @@ li{
     padding: 0.5rem;
     margin: 0.75rem;
     margin-left: 0;
+}
+
+.profile{
+    background-color: rgb(144, 144, 144);
+    border-radius: 50%;
+}
+
+.container-sx-profile .display-inline-block:nth-child(3) span{
+    text-transform: uppercase;
+    color: white;
+}
+
+.download{
+    margin-left: 0.2rem;
+}
+
+.container-sx-profile hr{
+    display: none;
+}
+
+.container-sx-profile{
+    justify-content: flex-end;
 }

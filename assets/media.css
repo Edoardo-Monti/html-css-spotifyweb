@@ -18,8 +18,8 @@
         display: none;
     }
 
-    #container-sx .img-logo-15{
-        width: 15%;
+    #container-sx .img-logo-10{
+        width: 10%;
     }
 
     .display-inline-block span{
@@ -27,11 +27,33 @@
         color: rgb(144, 144, 144);
     }
 
+    .display-inline-block span:hover{
+        color: rgb(255, 255, 255);
+    }
+
     .container-sx-playlist{
         display: block;
         color: rgb(144, 144, 144);
         padding-top: 1rem;
         line-height: 1.5rem;
+    }
+
+    .container-sx-playlist li:hover{
+        color: rgb(255, 255, 255);
+    }
+
+    .container-sx-playlist li:hover i{
+        background-color: rgb(255, 255, 255);
+    }
+
+    .container-sx-profile hr{
+        display: block;
+        margin: 0.75rem 0;
+    }
+
+    .download{
+        margin-left: 0;
+        padding-right: 0.2rem;
     }
 }
 
