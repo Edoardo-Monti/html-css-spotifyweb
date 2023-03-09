@@ -295,7 +295,8 @@ a{
 }
 
 .container-dx-recent,
-.container-john{
+.container-john,
+.container-popular{
     width: 90%;
     margin: 0 auto;
 }
@@ -319,17 +320,20 @@ h5{
     text-align: center;
 }
 
-.john-music{
-    justify-content: start;
-}
-
 .card span,
-.container-john span{
+.container-john span,
+.container-popular span{
     color: rgb(0, 0, 0);
     font-size: 12px;
 }
 
-.john-card{
+.john-card,
+.popular-card{
     flex-basis: calc(100% / 2 - 3%);
     margin: 1rem auto;
+}
+
+
+.popular-card img{
+    border-radius: 50%;
 }
