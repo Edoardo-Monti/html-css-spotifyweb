@@ -55,12 +55,24 @@
         margin-left: 0;
         padding-right: 0.2rem;
     }
+
+    /* CONTAINER DOWN*/
+    .down-left, .down-right{
+        display: flex;
+    }
+
+    .down-center{
+        width: 50%;
+    }
 }
 
 
 
 /* TABLET */
 @media screen and (min-width: 600px) {
+    .down-center{
+        width: 45%;
+    }
     
 }
 
@@ -68,6 +80,9 @@
 
 /* MONITOR LARGE */
 @media screen and (min-width: 1080px) {
+    .down-center{
+        width: 40%;
+    }
     
 }
 

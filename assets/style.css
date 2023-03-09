@@ -34,6 +34,7 @@ li{
     width: 100%;
     height: 80px;
     background-color: rgb(55, 54, 54);
+    position: fixed;
 }
 
 .flex{
@@ -130,6 +131,7 @@ li{
 /* CONTAINER DOWN */
 .down-left{
     height: 100%;
+    display: none;
 }
 
 .down-left img{
@@ -163,7 +165,8 @@ li{
 }
 
 .down-center{
-    width: 50%;
+    width: 60%;
+    margin: 0 auto;
 }
 
 .down-center i, span{
@@ -175,6 +178,11 @@ li{
     margin: 0 auto;
 }
 
+.down-right{
+    width: 20%;
+    display: none;
+}
+
 .container-down-center-time > div{
     height: 0.4rem;
     background-color: rgb(144, 144, 144);
@@ -183,7 +191,7 @@ li{
     border-radius: 5px;
 }
 
-.container-down-center-time .line-white{
+.line-white{
     height: 0.4rem;
     background-color: white;
     width: 25%;
@@ -204,3 +212,12 @@ li{
 .down-center-media .fa-circle-play{ 
     font-size: 30px;
 }
+
+.down-right > div{
+    height: 0.4rem;
+    background-color: rgb(144, 144, 144);
+    width: 90%;
+    margin: 0 1rem;
+    border-radius: 5px;
+}
+
