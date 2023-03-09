@@ -277,7 +277,7 @@ a{
 .menu-bar{
     width: 90%;
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 3.2rem;
 }
 
 .menu-bar a{
@@ -294,12 +294,13 @@ a{
     color: white;
 }
 
-.container-dx-recent{
+.container-dx-recent,
+.container-john{
     width: 90%;
     margin: 0 auto;
 }
 
-.container-dx-recent h3{
+h3{
     color: white;
     padding-top: 1rem;
 }
@@ -307,15 +308,28 @@ a{
 .card{
     flex-basis:calc(100% / 2 - 3%);
     text-align: center;
+    margin-top: 1rem;
     margin: 1rem auto;
 }
 
-.card h5{
+
+h5{
     color: white;
     margin-top: 0.5rem;
+    text-align: center;
 }
 
-.card span{
+.john-music{
+    justify-content: start;
+}
+
+.card span,
+.container-john span{
     color: rgb(0, 0, 0);
     font-size: 12px;
+}
+
+.john-card{
+    flex-basis: calc(100% / 2 - 3%);
+    margin: 1rem auto;
 }
