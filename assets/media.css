@@ -76,7 +76,7 @@
     }
 
     .menu-bar{
-        padding-top: 4.5rem;
+        padding-top: 5rem;
     }
 
     .menu-bar a{
@@ -142,8 +142,9 @@
     .john-card,
     .popular-card{
         flex-basis: calc(100% / 6 - 3%);
-        margin: 1rem 0.3rem;
+        margin: 1rem 1rem;
     }
+
 }
 
 
