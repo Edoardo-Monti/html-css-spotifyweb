@@ -32,6 +32,7 @@ a{
     width: calc(100% - 50px);
     height: 100%;
     background-color: rgb(143, 167, 255);
+    overflow: scroll;
 }
 
 #container-down{
@@ -49,20 +50,34 @@ a{
     justify-content: space-between;
 }
 
+.space-around{
+    justify-content: space-around;
+}
+
 .align-center{
     align-items: center;
 }
+/* 
+.align-start{
+    align-items: start;
+} */
 
 .justify-center{
     justify-content: center;
 }
 
-/* .flex-start{
-    justify-content: start;
-} */
+.flex-end{
+    justify-content: flex-end;
+}
 
 .column{
     flex-direction: column;
+}
+
+
+
+.wrap{
+    flex-wrap: wrap;
 }
 
 /* CONTAINER-SX */
@@ -155,9 +170,14 @@ a{
 }
 
 .down-left i,
-.down-right i{
+.down-right > i{
     color: rgb(144, 144, 144);
     margin: 0 .3rem;
+}
+
+.fa-circle{
+    color: white;
+    display: none;
 }
 
 .down-left i:hover{
@@ -203,6 +223,17 @@ a{
     border-radius: 5px;
 }
 
+
+.line-white:hover{
+    background-color: greenyellow;
+}
+
+.line-white:hover .fa-circle{
+    display: flex;
+}
+
+
+
 .container-down-center-time span{
     font-size: 12px;
 }
@@ -232,13 +263,59 @@ a{
     width: calc(100% - 50px);
     background-color: rgba(0,0,0,0.5);
     text-align: right;
-    padding: 30px 20px 30px 0;
+    padding: 20px 20px 20px 0;
 }
 
 .bt-white{
     color: white;
     border: 1px solid white;
-    padding: 10px 25px;
+    padding: 9px 20px;
     border-radius: 20px;
+    font-size: 10px;
+}
+
+.menu-bar{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.menu-bar a{
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-size: 9px;
+    flex-basis: calc(100% / 4);
+    margin: 0 auto;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.menu-bar a:hover{
+    color: white;
+}
+
+.container-dx-recent{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container-dx-recent h3{
+    color: white;
+    padding-top: 1rem;
+}
+
+.card{
+    flex-basis:calc(100% / 2 - 3%);
+    text-align: center;
+    margin: 1rem auto;
+}
+
+.card h5{
+    color: white;
+    margin-top: 0.5rem;
+}
+
+.card span{
+    color: rgb(0, 0, 0);
     font-size: 12px;
 }
