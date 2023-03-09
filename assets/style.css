@@ -12,6 +12,10 @@ li{
     list-style-type: none;
 }
 
+a{
+    text-decoration: none;
+}
+
 #main-container{
     width: 100%;
     height:calc(100vh - 80px);
@@ -221,3 +225,20 @@ li{
     border-radius: 5px;
 }
 
+/* CONTAINER DX */
+.upgrade{
+    position: fixed;
+    top: 0;
+    width: calc(100% - 50px);
+    background-color: rgba(0,0,0,0.5);
+    text-align: right;
+    padding: 30px 20px 30px 0;
+}
+
+.bt-white{
+    color: white;
+    border: 1px solid white;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 12px;
+}
