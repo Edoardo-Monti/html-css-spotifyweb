@@ -337,3 +337,29 @@ h5{
 .popular-card img{
     border-radius: 50%;
 }
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.container-dx-recent .card .relative i{
+    font-size: 40px;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.container-dx-recent .relative:hover img{
+    opacity: 0.3;
+}
+
+
+.container-dx-recent .relative:hover i{
+    display: block;
+}
