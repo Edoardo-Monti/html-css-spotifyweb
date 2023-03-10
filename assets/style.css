@@ -40,6 +40,7 @@ a{
     height: 80px;
     background-color: rgb(55, 54, 54);
     position: fixed;
+    z-index: 3;
 }
 
 .flex{
@@ -57,10 +58,6 @@ a{
 .align-center{
     align-items: center;
 }
-/* 
-.align-start{
-    align-items: start;
-} */
 
 .justify-center{
     justify-content: center;
@@ -81,6 +78,10 @@ a{
 }
 
 /* CONTAINER-SX */
+.overflow{
+    /* overflow: hidden; */
+}
+
 #container-sx .img-logo{
     display: none;
 }
@@ -226,12 +227,17 @@ a{
 
 .line-white:hover{
     background-color: greenyellow;
+    cursor: pointer;
 }
 
 .line-white:hover .fa-circle{
     display: flex;
+    cursor: pointer;
 }
 
+.down-center .down-center-media i:hover{
+    cursor: pointer;
+}
 
 
 .container-down-center-time span{
@@ -259,6 +265,7 @@ a{
 /* CONTAINER DX */
 .upgrade{
     position: fixed;
+    z-index: 2;
     top: 0;
     width: calc(100% - 50px);
     background-color: rgba(0,0,0,0.5);
@@ -274,11 +281,17 @@ a{
     font-size: 10px;
 }
 
+.bt-white:hover{
+    font-size: 15px;
+}
+
+
 .menu-bar{
     width: 90%;
     margin: 0 auto;
-    padding-top: 3.2rem;
+    padding-top: 3.4rem;
     padding-bottom: 2rem;
+
 }
 
 .menu-bar a{
@@ -358,9 +371,11 @@ h5{
 
 .container-dx-recent .relative:hover img{
     opacity: 0.3;
+    cursor: pointer;
 }
 
 
 .container-dx-recent .relative:hover i{
     display: block;
+    cursor: pointer;
 }
