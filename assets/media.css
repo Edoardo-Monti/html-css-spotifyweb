@@ -146,17 +146,3 @@
     }
 
 }
-
-
-@media screen and (max-height: 600px) {
-    .overflow{
-        overflow: hidden;
-    }
-}
-
-@media screen and (min-height: 330px){
-    .overflow{
-        overflow: scroll;
-    }
-
-}
